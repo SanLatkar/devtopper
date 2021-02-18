@@ -59,7 +59,7 @@ resource "digitalocean_certificate" "dev" {
 
     type = "lets_encrypt"
 
-    domains = ["sandevtopper.live"]
+    domains = ["devtopperpawan.live"]
 
     lifecycle{
         create_before_destroy = true
